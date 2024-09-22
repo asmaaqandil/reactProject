@@ -1,0 +1,134 @@
+.about{
+    margin: 100px auto;
+   display: grid;
+   align-self: center;
+   grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    gap: 1rem;
+
+  
+}
+
+.about-img{
+    width:350px;
+    border-radius: 10px;
+}
+
+
+.about-right h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: blueviolet;
+
+}
+.about-right p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn{
+    background: blueviolet;
+}
+/*media*/
+@media(max-width:900px){
+    .about-right{
+        text-align: center;
+    }
+    .about-right h3{
+        font-size: 25px;
+      
+    
+    }
+    .about-right p{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+      
+    }
+
+   
+
+}
+@media(max-width:790px){
+    .about-img{
+        width:350px;
+        border-radius: 10px;
+        margin-top: 1rem;
+    } 
+    .about-right p{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+      
+    }  
+}
+@media(max-width:700px){
+    .about{
+        margin: 100px auto;
+       display: grid;
+       align-self: center;
+       grid-template-columns: 1fr;
+        width: 90%;
+        gap: 1rem;
+        margin: auto;
+      
+    }
+
+     .about-img{
+        width:400px;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-left: 50px;
+      
+    }     
+
+}
+@media(max-width:600px){
+
+ .about-img{
+        width:300px;
+        border-radius: 10px;
+        margin-top: 1rem;
+       margin-left: 70px;
+      
+    } 
+}
+@media(max-width:530px){
+
+    .about-img{
+           width:300px;
+           border-radius: 10px;
+           margin-top: 1rem;
+           margin-left: 50px;
+      
+   }
+}
+   @media(max-width:475px){
+
+    .about-img{
+           width:300px;
+           margin-left: 30px;
+    }
+}
+@media(max-width:430px){
+
+    .about-img{
+           width:300px;
+           margin-left: 15px;
+    }
+}
+
+@media(max-width:390px){
+
+    .about-img{
+           width:230px;
+           margin-left: 15px;
+    }
+}
+@media(max-width:310px){
+
+    .about-img{
+           width:200px;
+           margin-left: 15px;
+    }
+}
